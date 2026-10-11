@@ -8,13 +8,13 @@ export class TemporalUsuarios {
   private usuarios: UsuarioDto[];
 
   constructor() {
-    // Arreglo inicial con datos de prueba para Postman
+ 
     this.usuarios = [
   
     ];
   }
 
-  // Métodos de acceso y manipulación
+
   public obtenerTodos(): UsuarioDto[] {
     return this.usuarios;
   }
